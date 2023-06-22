@@ -16,6 +16,26 @@ $mont : 'Montserrat', sans-serif;;
     font-family: 'akiri';
     src: url('/wp-content/themes/extras/fonts/Akira-Expanded.otf');
 }
+@font-face {
+    font-family: 'sf-italic';
+    src: url('/wp-content/themes/extras/fonts/SFPRODISPLAYTHINITALIC.otf');
+}
+@font-face {
+    font-family: 'sf-bold-italic';
+    src: url('/wp-content/themes/extras/fonts/SFPRODISPLAYSEMIBOLDITALIC.otf');
+}
+@font-face {
+    font-family: 'sf-regular';
+    src: url('/wp-content/themes/extras/fonts/SFPRODISPLAYREGULAR.otf');
+}
+@font-face {
+    font-family: 'sf-medium';
+    src: url('/wp-content/themes/extras/fonts/SFPRODISPLAYMEDIUM.otf');
+}
+@font-face {
+    font-family: 'sf-bold';
+    src: url('/wp-content/themes/extras/fonts/SFPRODISPLAYBOLD.otf');
+}
 
 //animations
 

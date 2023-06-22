@@ -1,9 +1,4 @@
-gsap.registerPlugin(ScrollTrigger, ScrollSmoother);
 
-let smoother =  ScrollSmoother.create({
-    wrapper: "#smooth-wrapper",
-    content: "#smooth-content",
-})
 
 $(document).ready(function(){
     $(".accessory").mouseover(function(){
@@ -17,9 +12,11 @@ $(document).ready(function(){
         $(".cursor").css("left",`${e.clientX}px`)
         $(".cursor").css("top",`${e.clientY}px`)
         if($(".accessory:hover").length != 0){
-            $(".cursor").css("width",`250px`)
+            $(".cursor").css("width",`200px`)
+            $(".cursor .content").addClass("show")
         }else{
             $(".cursor").css("width",`20px`)
+            $(".cursor .content").removeClass("show")
         }
     })
 })

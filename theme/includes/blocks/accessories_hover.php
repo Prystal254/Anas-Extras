@@ -1,9 +1,14 @@
 <div class="cursor">
+    <div class="content">
+        <div class="heading">Click</div>
+        <div class="description">get it for <span>Absolutely Free</span> with <span>each T-shirt</span></div>
+    </div>
 </div>
 <div class="top">
 
 </div>
 <section class="accessories-section">
+    <h2 class="heading">Accessories</h2>
     <div class="inner">
         <div class="accessories">
             <?php foreach($block["products"] as $product){?>
@@ -20,9 +25,7 @@
                         <div class="price free">FREE</div>
                     </div>
                     <div class="display-name">
-                        <span class="primary"><?php echo $product["product"]["name"]?></span>
-                        <span class="secondary"><?php echo $product["product"]["name"]?></span>
-                        <span class="tertiary"><?php echo $product["product"]["name"]?></span>
+                        <?php echo $product["product"]["name"]?>
                     </div>
                 </div>
             <?php } ?>

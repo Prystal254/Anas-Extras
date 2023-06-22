@@ -46,13 +46,6 @@
 				"loadInFooter" => true
 			],
 			[
-				"name" => 'scrollsmooter.js', 
-				"type" => 'js',
-				"path" => $templatedir . '/js/scrollsmooter.js',
-				"version" => '1.0.0',
-				"loadInFooter" => true
-			],
-			[
 				"name" => 'custom.js', 
 				"type" => 'js',
 				"path" => $templatedir . '/js/custom.js',
